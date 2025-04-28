@@ -1,4 +1,4 @@
-package Test.Utlity;
+package Utlity;
 
 public class MyFunc {
 
