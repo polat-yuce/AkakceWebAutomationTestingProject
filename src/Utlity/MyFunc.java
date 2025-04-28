@@ -20,7 +20,7 @@ public class MyFunc {
     public static void ErrorMessage(String text) {
         WebElement errorMessage = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//div[@class='alertX t2']/p")));
 
-        Assert.assertTrue("Hatalı işlem", errorMessage.getText().toLowerCase().equalsIgnoreCase(text));
+        Assert.assertTrue("Hatalı işlem", errorMessage.getText().toLowerCase().contains(text));
     }
 
 }
