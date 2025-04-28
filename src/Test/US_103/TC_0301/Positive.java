@@ -16,8 +16,7 @@ public class Positive extends BaseDriverLogin {
 
         driver.findElement(By.cssSelector("a[href='#Çık']")).click();
 
-
-        Assert.assertTrue("Hatalı işlem",driver.);
+        Assert.assertTrue("Hatalı işlem",driver.getTitle().equalsIgnoreCase("Ne Nerede En Ucuz Akakçe'de"));
 
         BekleKapat();
     }
