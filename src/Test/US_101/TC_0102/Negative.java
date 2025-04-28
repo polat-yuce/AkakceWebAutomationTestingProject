@@ -1,16 +1,14 @@
 package Test.US_101.TC_0102;
 
-import Utlity.BaseDriver;
-import Utlity.MyFunc;
+import Utlity.BaseDriverLogin;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
-public class Negative extends BaseDriver {
+public class Negative extends BaseDriverLogin {
 
     @Test
     public void CreationScenariowithMissingInformation() {

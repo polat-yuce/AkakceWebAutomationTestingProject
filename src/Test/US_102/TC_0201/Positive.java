@@ -1,12 +1,12 @@
 package Test.US_102.TC_0201;
 
-import Utlity.BaseDriver;
+import Utlity.BaseDriverLogin;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-public class Positive extends BaseDriver {
+public class Positive extends BaseDriverLogin {
 
     @Test
     public void AccountVerificationCheck() {
